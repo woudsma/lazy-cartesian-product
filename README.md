@@ -1,17 +1,17 @@
-# (Big) Lazy Cartesian Product
+# (Big) Lazy n-ary Cartesian Product
 
-#### Concept
+### Concept
 
-Lazy Cartesian Product: [Iterating combinations of arrays without calculating them all first](http://phrogz.net/lazy-cartesian-product).
+Lazy Cartesian product: [Iterating combinations of arrays / sets without calculating them all first](http://phrogz.net/lazy-cartesian-product).
 
-#### Implementation
+### Implementation
 
 Uses the `bigfloat` package to fix issues with Python's floating-point division algorithm, which fails to work above a certain -very high- number.  
-This allows you to generate a Cartesian Product of gargantuan size.
+This allows you to generate a Cartesian product of gargantuan size.
 
 The implementation is based on [this article](https://hackernoon.com/generating-the-nth-cartesian-product-e48db41bed3f).
 
-#### Usage
+### Usage
 
 Either:
 
